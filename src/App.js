@@ -11,6 +11,7 @@ import Header from './components/Header.jsx';
 import HomePage from './components/HomePage.jsx';
 import Movies from './components/Movies';
 import TVShows from './components/TVShows';
+import Contact from './components/Contact.jsx';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/movies" element={<Movies />} />
         <Route path="/tvshows" element={<TVShows />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );

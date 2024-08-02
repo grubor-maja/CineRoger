@@ -12,7 +12,7 @@ function Navbar() {
                 <li><a onClick={() => navigate('/')}>Home Page</a></li>
                 <li><a onClick={() => navigate('/movies')}>Movies</a></li>
                 <li><a onClick={() => navigate('/tvshows')}>TV Shows</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a onClick={() => navigate('/contact')}>Contact</a></li>
             </ul>
         </nav>
         </>
