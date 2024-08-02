@@ -5,6 +5,7 @@ import SearchBar from './components/SearchBar.jsx';
 import HeroSection from './components/HeroSection.jsx';
 import MovieGrid from './components/MovieGrid.jsx';
 import heroImage from '../src/img/hero-image.jpg';
+import Footer from './components/Footer.jsx';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
     <SearchBar></SearchBar>
     <HeroSection></HeroSection>
     <MovieGrid movies={movies}></MovieGrid>
+    <Footer></Footer>
     </>
   );
 }

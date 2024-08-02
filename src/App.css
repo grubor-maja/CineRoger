@@ -88,7 +88,7 @@
 }
 
 .searchbar input {
-  width: 300px;
+  width: 400px;
   padding: 0.5rem;
 }
 
@@ -191,4 +191,49 @@
   justify-content: center;
   gap: 1rem;
   padding: 2rem;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-links li {
+  margin: 0;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.5s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: #b6b6b6;
 }
