@@ -78,3 +78,24 @@
 .navbar-links a:hover {
   color: rgb(197, 197, 197);
 }
+
+/* SearchBar */
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.searchbar input {
+  width: 300px;
+  padding: 0.5rem;
+}
+
+.searchbar button {
+  padding: 0.5rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
