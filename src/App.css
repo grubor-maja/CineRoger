@@ -99,3 +99,45 @@
   border: none;
   cursor: pointer;
 }
+
+/* HeroSection */
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 3rem;
+}
+
+.hero-content {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-content img {
+  width: 800px;
+  border-radius: 8px;
+  margin-right: 2rem;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.hero-text {
+  margin-left:1rem;
+}
+
+.title-rating .fa-star {
+  color: gold;
+  font-size: 2rem;
+}
