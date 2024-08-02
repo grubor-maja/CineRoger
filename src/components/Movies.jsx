@@ -34,6 +34,7 @@ function Movies() {
     const currentMovies = allMovies.slice(indexOfFirstMovie,indexOfLastMovie);
     
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
     return ( <>
                 <Header />
             <Navbar />
