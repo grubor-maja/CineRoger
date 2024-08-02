@@ -141,3 +141,54 @@
   color: gold;
   font-size: 2rem;
 }
+
+/* MovieCard */
+
+.movie-card {
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.movie-card:hover {
+  opacity: 80%;
+}
+
+.movie-image {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.movie-info {
+  padding: 1rem;
+  padding-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+.movie-title {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #fff;
+}
+
+.movie-rating {
+  color: #f5c518;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+/* MovieGrid */
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(4,400px);
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
