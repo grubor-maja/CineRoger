@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection.jsx';
 import MovieGrid from './components/MovieGrid.jsx';
 import heroImage from '../src/img/hero-image.jpg';
 import Footer from './components/Footer.jsx';
+import Header from './components/Header.jsx';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
   ];
   return (
     <>
+    <Header></Header>
     <Navbar></Navbar>
     <SearchBar></SearchBar>
     <HeroSection></HeroSection>
