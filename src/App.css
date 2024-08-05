@@ -364,3 +364,52 @@
   max-width: 1300px;
   text-align: justify;
 }
+
+/* Media query - max width 768px (Mobile) */
+
+@media screen and (max-width:968px) {
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links li {
+    margin: 0.5rem auto;
+    width: 100%;
+  }
+
+  /* Hero Section */
+
+  .hero-content {
+    max-width: 100%;
+  }
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  /* Movie Grid */
+
+  .movie-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .movie-title {
+    font-size: 1rem;
+    
+  }
+  
+  .movie-rating {
+    font-size: 0.9rem;
+  }
+
+}
