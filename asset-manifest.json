@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/CineRoger/static/css/main.8aa99a0f.css",
+    "main.js": "/CineRoger/static/js/main.32fa1f64.js",
+    "static/js/453.08d168f7.chunk.js": "/CineRoger/static/js/453.08d168f7.chunk.js",
+    "static/media/hero-image.jpg": "/CineRoger/static/media/hero-image.02bdab1f223183bf5f8e.jpg",
+    "index.html": "/CineRoger/index.html",
+    "main.8aa99a0f.css.map": "/CineRoger/static/css/main.8aa99a0f.css.map",
+    "main.32fa1f64.js.map": "/CineRoger/static/js/main.32fa1f64.js.map",
+    "453.08d168f7.chunk.js.map": "/CineRoger/static/js/453.08d168f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8aa99a0f.css",
+    "static/js/main.32fa1f64.js"
+  ]
+}
