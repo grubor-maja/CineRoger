@@ -397,6 +397,11 @@
     font-size: 1rem;
   }
 
+  .hero-content img {
+    width: 100%;
+    height: max-content;
+  }
+
   /* Movie Grid */
 
   .movie-grid {

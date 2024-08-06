@@ -16,7 +16,7 @@ import Review from './components/Review.jsx';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/CineRoger">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/movies" element={<Movies />} />
