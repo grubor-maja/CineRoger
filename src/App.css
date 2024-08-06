@@ -368,12 +368,19 @@
 /* Media query - max width 768px (Mobile) */
 
 @media screen and (max-width:968px) {
+
+  /* Header */
+
+  .header {
+    padding-bottom: 0rem;
+  }
   /* Navbar */
   .navbar {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-top: 0rem;
   }
 
   .navbar-links {
@@ -381,6 +388,7 @@
     width: 100%;
     margin: 0 auto; 
     text-align: center;
+    gap: 0.8rem;
   }
 
   .navbar-links li {
@@ -420,6 +428,19 @@
   
   .movie-rating {
     font-size: 0.9rem;
+  }
+
+  /* Review */
+
+  .review-container {
+    margin-top: 1rem;
+  }
+
+  /* Contact */
+
+  .contact-form {
+    width: 80%;
+    margin: 0 auto;
   }
 
 }
