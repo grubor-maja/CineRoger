@@ -396,6 +396,14 @@
     width: 100%;
   }
 
+  /* Searchbar */
+
+
+
+  .searchbar button {
+    width: 180px;
+  }
+
   /* Hero Section */
 
   .hero-content {
@@ -413,8 +421,12 @@
   .hero-content img {
     width: 100%;
     height: max-content;
+    margin-bottom: 1.1rem;
   }
 
+  .hero-text {
+    margin-left: 0rem;
+  }
   /* Movie Grid */
 
   .movie-grid {
