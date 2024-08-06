@@ -371,12 +371,16 @@
   /* Navbar */
   .navbar {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .navbar-links {
     flex-direction: column;
     width: 100%;
+    margin: 0 auto; 
+    text-align: center;
   }
 
   .navbar-links li {
@@ -388,6 +392,7 @@
 
   .hero-content {
     max-width: 100%;
+    flex-direction: column;
   }
   .hero-content h1 {
     font-size: 2rem;
