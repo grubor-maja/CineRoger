@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CineRoger/static/css/main.a09f160b.css",
+    "main.css": "/CineRoger/static/css/main.3c4a0ff6.css",
     "main.js": "/CineRoger/static/js/main.ce6edef5.js",
     "static/js/453.08d168f7.chunk.js": "/CineRoger/static/js/453.08d168f7.chunk.js",
     "static/media/hero-image.jpg": "/CineRoger/static/media/hero-image.02bdab1f223183bf5f8e.jpg",
     "index.html": "/CineRoger/index.html",
-    "main.a09f160b.css.map": "/CineRoger/static/css/main.a09f160b.css.map",
+    "main.3c4a0ff6.css.map": "/CineRoger/static/css/main.3c4a0ff6.css.map",
     "main.ce6edef5.js.map": "/CineRoger/static/js/main.ce6edef5.js.map",
     "453.08d168f7.chunk.js.map": "/CineRoger/static/js/453.08d168f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a09f160b.css",
+    "static/css/main.3c4a0ff6.css",
     "static/js/main.ce6edef5.js"
   ]
 }
