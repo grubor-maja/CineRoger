@@ -25,7 +25,6 @@ function HomePage() {
     return (
         <>
             <Header />
-            <Navbar />
             <SearchBar />
             <HeroSection />
             <MovieGrid movies={movies} />

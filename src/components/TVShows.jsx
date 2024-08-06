@@ -37,7 +37,6 @@ function TVShows() {
     return (
         <>
             <Header />
-            <Navbar />
             <SearchBar />
             <div className="page-title">
                 <h2>TV Show Reviews</h2>

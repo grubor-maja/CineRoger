@@ -37,7 +37,6 @@ function Movies() {
 
     return ( <>
                 <Header />
-            <Navbar />
             <SearchBar />
             <div className="page-title">
                 <h2>Movie Reviews</h2>

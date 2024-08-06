@@ -365,14 +365,29 @@
   text-align: justify;
 }
 
+.burger-menu {
+  display: none;
+}
+
 /* Media query - max width 768px (Mobile) */
 
 @media screen and (max-width:968px) {
 
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Burger menu */
+
+  .burger-menu {
+    display: flex;
+  }
   /* Header */
 
   .header {
     padding-bottom: 0rem;
+    flex-direction: row;
+    justify-content:space-evenly;
   }
   /* Navbar */
   .navbar {
@@ -384,11 +399,16 @@
   }
 
   .navbar-links {
+    display: none;
     flex-direction: column;
     width: 100%;
     margin: 0 auto; 
     text-align: center;
     gap: 0.8rem;
+  }
+
+  .navbar-links.open {
+    display: flex;
   }
 
   .navbar-links li {
@@ -398,13 +418,21 @@
 
   /* Searchbar */
 
-
+  .searchbar {
+    
+    width: 80%;
+    margin: 1rem auto;
+  }
 
   .searchbar button {
     width: 180px;
   }
 
   /* Hero Section */
+
+  .hero-section {
+    padding: 1rem;
+  }
 
   .hero-content {
     max-width: 100%;
