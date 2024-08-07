@@ -7,8 +7,8 @@ import Footer from './Footer.jsx';
 import Header from './Header.jsx';
 import heroImage from '../img/hero-image.jpg';
 
-function HomePage() {
-    const movies = [
+function HomePage({movies}) {
+    const movies2 = [
         {id:1,title:'Movie 1', rating:4, image:heroImage},
         {id:2,title:'Movie 2', rating:5, image:heroImage},
         {id:3,title:'Movie 3', rating:3, image:heroImage},
@@ -26,7 +26,7 @@ function HomePage() {
         <>
             <Header />
             <SearchBar />
-            <HeroSection />
+            <HeroSection movies={movies} />
             <MovieGrid movies={movies} />
             <Footer />
         </>

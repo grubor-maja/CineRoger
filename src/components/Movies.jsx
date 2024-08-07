@@ -6,8 +6,21 @@ import MovieGrid from './MovieGrid.jsx';
 import Footer from './Footer.jsx';
 import Header from './Header.jsx';
 import heroImage from '../img/hero-image.jpg';
+import { useEffect } from 'react';
 
 function Movies() {
+
+    const [movies,setMovies] = useState([]);
+
+    useEffect(() => {
+        const fetchMovies = async () => {
+            const response = await fetch('http://localhost:5000/api/movies');
+            const data = await response.json();
+            setMovies(data);
+        };
+
+        fetchMovies();
+    },[]);
 
     const allMovies = [
         { id: 1, title: 'Movie 1', rating: 4, image: heroImage },
@@ -41,7 +54,7 @@ function Movies() {
             <div className="page-title">
                 <h2>Movie Reviews</h2>
             </div>
-            <MovieGrid movies={currentMovies} />
+            <MovieGrid movies={movies} />
             <div className="pagination">
                 <button 
                     onClick={() => paginate(currentPage - 1)} 

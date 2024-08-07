@@ -26,7 +26,6 @@ function Header() {
             <ul className={`navbar-links ${open ? 'open' : ''}`}>
                 <li><a onClick={() => {navigate('/'); setOpen(false)}}>Home Page</a></li>
                 <li><a onClick={() => {navigate('/movies'); setOpen(false)}}>Movies</a></li>
-                <li><a onClick={() => {navigate('/tvshows'); setOpen(false)}}>TV Shows</a></li>
                 <li><a onClick={() => {navigate('/contact'); setOpen(false)}}>Contact</a></li>
             </ul>
         </nav>

@@ -4,25 +4,30 @@ import { FaStar } from "react-icons/fa";
 
 
 
-function HeroSection() {
-    return ( <>
-    <div className="hero-section">
-        <div className="hero-content">
-            <img src={heroImage} alt="Hero" />
+function HeroSection({movies}) {
+    const featureMovie = movies[1];
+
+    const stars = [];
+    for (let i = 0; i < featureMovie.rating; i++) {
+        stars.push(<FaStar key={i} size={30} fill='#F2D16B' />);
+    }
+
+    return (
+        <>
+        <div className="hero-section">
+            <div className="hero-content">
+            <img src={featureMovie.image} alt="Hero" />
             <div className="hero-text">
-                <h1>Featured movie</h1>
-                <p>Sed suscipit luctus massa, nec pulvinar velit auctor rhoncus. Cras consectetur lacus ultrices odio pretium tempor sed volutpat neque. Morbi posuere tincidunt convallis. Nulla bibendum sapien nisi, eu interdum massa blandit sit amet. Nunc tristique, ex quis dignissim sagittis, urna dui porta nisi, n erat..</p>
+                <h1>{featureMovie.title}</h1>
+                <p>{featureMovie.review}</p>
                 <div className="title-rating">
-                    <FaStar size={30} fill='#F2D16B'/>
-                    <FaStar size={30} fill='#F2D16B'/>
-                    <FaStar size={30} fill='#F2D16B'/>
-                    <FaStar size={30} fill='#F2D16B'/>
+                {stars}
                 </div>
             </div>
-
+            </div>
         </div>
-    </div>
-    </> );
+        </>
+    );
 }
 
 export default HeroSection;
