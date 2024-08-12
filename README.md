@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# CineRoger
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CineRoger is a simple full-stack web application for movie reviews. This project consists of a frontend build with React and a backend built with Node.js, Express and MongoDB.
 
-## Available Scripts
+## Requirements
 
-In the project directory, you can run:
+Before you begin, make sure you have the following requirements:
 
-### `npm start`
+-Node.js and npm installed on your machine<br/>
+-MongoDB installed and running
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Follow these steps to set up and run the project locally.
 
-### `npm test`
+### 1. Backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### 1.1. Clone the Repository
 
-### `npm run build`
+```bash
+git clone https://github.com/grubor-maja/CineRoger.git
+git checkout backend
+cd CineRoger/cineroger-back
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 1.2. Install Dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 1.3. Create a .env file in the root directory of the backend folder and the following content
 
-### `npm run eject`
+```bash
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### 1.4. Start the backend server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The backend server will run at http://localhost:5000.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 2. Frontend
 
-## Learn More
+#### 2.1. Clone the Repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+cd ../cineroger-front
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### 2.2. Install Dependencies
 
-### Code Splitting
+```bash
+npm install
+```
+#### 2.3. Start the frontend application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+## API Endpoints
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The backend application provides the following API endpoints:
 
-### Making a Progressive Web App
+GET /api/movies - Fetches all movies<br/>
+POST /api/movies - Adds a new movie<br/>
+GET /api/movies/:id - Fetches a movie by ID<br/>
+PUT /api/movies/:id - Updates a movie by ID<br/>
+DELETE /api/movies/:id - Deletes a movie by ID<br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Screenshots
 
-### Advanced Configuration
+### HomePage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![image](https://github.com/user-attachments/assets/ec756b13-e994-4ab5-ac2b-387ed9b378a6)
 
-### Deployment
+### Movies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![image](https://github.com/user-attachments/assets/5cb2c24e-6d5f-4dba-afda-8cb6f35ccece)
 
-### `npm run build` fails to minify
+### Conclusion
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project served as a reminder to create full stack applications, connecting the frontend with appropriate databases and as a basis for further complex projects.
+
+
+
+
